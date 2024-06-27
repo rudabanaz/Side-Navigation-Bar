@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    font-family:sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper .sidenav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20vw;
+    height: 100vh;
+    background: #231f20;
+}
+.wrapper .sidenav h1{
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    border-bottom: 1px dotted white;
+    margin-bottom: 50px;
+}
+.wrapper .sidenav ul li{
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0, 0, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.1);
+}
+.wrapper .main-content{
+   width: 80vw;
+   margin-left: 20vw; 
+}
+section{
+    height: 100vh;
+    padding: 30px;
+}
+#section1{
+    background: linear-gradient(to right, #373b44, #4286f4);
+}
+#section2{
+    background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+}
+#section3{
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+}
+#section4{
+    
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+    
+}
+#section5{
+    background: linear-gradient(to right, #659999, #f4791f);
+}
